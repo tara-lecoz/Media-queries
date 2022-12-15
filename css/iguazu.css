@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #75aee0;
+    color: white;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #75aee0;
+    color: white;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.cascadeiguazu {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 5px;
+}
+
+.cascadeiguazu2 {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 5px;
+}
+
+.explicationcontent {
+    margin-left: 1vw;
+}
+
+.infospratiques p {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  header {
+    background-color: #75aee0;
+    height: auto;
+  }
+  
+  .menu li a:hover{
+    background-color: #f6b506;
+  }
+  
+  .submenu1, .submenu2{
+    background-color: #75aee0;
+  }
+
+  footer {
+    background: #75aee0;
+  }
+
+  @media all and (max-device-width: 425px) {
+    .menu {
+      width: 120vw;
+    }
+    .explicationcontent {
+      text-align: center;
+      margin-top: 2px;
+    }
+
+    footer {
+      height: auto;
+      display: block;
+      color: white;
+    }
+
+    .cascadeiguazu {
+      width: 64vh;
+      margin: 3px 3px 3px 3px;
+    }
+  }

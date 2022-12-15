@@ -1,0 +1,197 @@
+/* body / header / footer */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* page argentine.html */
+
+#img1 {
+  max-width: 70vh;
+  padding-left: 32vw;
+}
+
+.introductioncontent {
+  margin: 0 8vw;
+}
+
+.introductioncontent h1 {
+  color: #1d125d;
+}
+
+.introductioncontent h2 {
+  color: #75aee0;
+}
+
+.presentationcontent {
+  display: flex;
+}
+
+.presentationcontent p {
+  background-color: #75aee0;
+  color: white;
+  border-radius: 15px;
+  width: 36%;
+  margin: 3vw 3vw 11vw;
+  padding: 1.3vw;
+  /* height: 21vw; */
+}
+
+#img2 {
+    width: 40%;
+}
+
+table {
+  border-collapse: collapse;  
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+caption {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1d125d;
+}
+
+.informationtable {
+  background-color: #75aee0a1;
+}
+
+.h2destinationcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px 0px 15px 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  font-size: 45px;
+  color: #1d125d;
+}
+
+.destinationcontent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.img3 {
+  width: 350px;
+}
+
+.destinationbuenosaires {
+  width: 405px;
+  background-color: #75aee0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+
+.destinationbuenosaires p {
+  margin: 10px 10px 10px 10px;
+}
+
+.destinationbuenosaires h4 {
+  margin: 10px 10px 10px 10px;
+}
+
+.nationaliguazúpark {
+  width: 405px;
+  background-color: #75aee0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+
+.nationaliguazúpark p {
+  margin: 10px 10px 10px 10px;
+}
+
+.nationaliguazúpark h4 {
+  margin: 10px 10px 10px 10px;
+}
+
+.h4destination {
+  margin-bottom: 0;
+}
+
+.adestinationcontent {
+  background-color: #f6b506;
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+}
+
+header {
+  background-color: #75aee0;
+  height: auto;
+}
+
+nav {
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+}
+
+.menu li a:hover{
+  background-color: #f6b506;
+}
+
+.submenu1, .submenu2{
+  background-color: #75aee0;
+}
+
+footer {
+  background: #f6b506;
+}
+
+@media all and (max-device-width: 425px) {
+    .menu {
+      width: 120vw;
+    }
+
+    #img1 {
+      padding-left: 0;
+      width: auto;
+      max-width: 65.4vh;
+    }
+
+    .presentationcontent {
+      display: block;
+    }
+
+    .presentationcontent p {
+      width: auto;
+      margin-bottom: 2vw;
+    }
+
+    #img2 {
+      width: 64vh;
+      margin: 5px 5px 5px 5px;
+    }
+
+    .h2destinationcontent {
+      padding: 0;
+    }
+
+    footer {
+      height: auto;
+      display: block;
+      color: white;
+    }
+}
